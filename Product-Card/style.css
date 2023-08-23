@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" ,sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(190, 190, 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 18rem;
+    height: 85%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.top-pannel{
+    width: 100%;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-pannel img{
+    width: 17%;
+}
+
+.image{
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    width: 55%;
+}
+
+.shoe-discription{
+    width: 100%;
+    padding: 0.3rem 1rem;
+}
+
+.shoe-discription h2{
+    font-weight: bold;
+}
+
+.shoe-discription p{
+    font-size: 0.8rem;
+}
+
+.shoe-discription ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 0.3rem;
+}
+
+ul li i{
+    color: rgb(167, 167, 10);
+}
+
+.shoe-discription h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h3 sup{
+    color: green;
+}
+
+.btn{
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoe-discription button{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 2rem;
+    background-color: rgb(197, 197, 8);
+    border-radius: 50px;
+    color: white;
+    transition: all 0.4s;
+}
+
+button:hover{
+    background-color: rgb(100, 100, 12);
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@500&family=Poppins:wght@500&family=Roboto+Slab&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card{
+    height: 80%;
+    width: 17rem;
+    padding: 1rem 1.2rem;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.top-pannel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-pannel-icon{
+    font-size: 1.6rem;
+    color: white;
+}
+
+.red{
+    color: red;
+}
+
+.img-block,.name-block, .bio, .button-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.img-block img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.name-block h3{
+    color: white;
+}
+
+.bio p{
+    font-size: 0.9rem;
+    text-align: center;
+    color: white;
+}
+
+.button-block button{
+    padding: 10px;
+    width: 6rem;
+    font-weight: bold;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+
+.social-handles, .reach, .engagement{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.social-handles .fa-brands{
+    font-size: 1rem;
+    color: white;
+}
+
+.instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.youtube{
+    background-color: #ff0000;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.twitter{
+    background-color: #1D9BF0;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.engagement p, .reach p{
+    font-size: 0.8rem;
+    color: white;
+}

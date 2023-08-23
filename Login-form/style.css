@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@500&family=Poppins:wght@500&family=Roboto+Slab&family=Ubuntu&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" ,sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 1005;
+    background-color: rgb(85, 186, 152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    height: 85%;
+    width: 17rem;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    /* justify-content: center; */
+    padding: 3% 5%;
+    align-items: center;
+    flex-direction: column;
+}
+
+form h2{
+    margin-bottom: 10%;
+}
+
+
+form label{
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+form input{
+    border: none;
+    outline: none;
+    padding: 0 0.4rem;
+}
+
+.input-feilds div{
+    border-bottom: 1px solid black;
+    padding-bottom: 0.4rem;
+}
+
+form section{
+    margin-bottom: 4%;
+}
+
+.forgot-pass{
+    width: 100%;
+}
+
+.forgot-pass p{
+    float: right;
+    font-size: 0.7rem;
+}
+
+.button{
+    margin-top: 10%;
+}
+
+button{
+    border: none;
+    color: white;
+    background-color: #FFCC70;
+    background-image: linear-gradient(43deg, #FFCC70 0%, #4158D0 2%, #C850C0 74%);
+    width: 12rem;
+    height: 1.9rem;
+    border-radius: 8px;
+}
+
+.signup-section{
+    margin-top: 15%;
+}
+
+.signup-section p{
+    font-size: 0.7rem;
+}
+
+.icons{
+    margin-top: 6%;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.simple-signup{
+    margin-top: 25%;
+    text-align: center;
+}
+
+.first-p{
+    font-size: 0.6rem;
+}
+
+
+.fa-brands {
+    margin-top: 1rem;
+    cursor: pointer;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.fa-google {
+    background-color: orangered;
+}
+
+.fa-twitter {
+    background-color: rgb(43, 71, 228);
+}
+
+.fa-facebook {
+    background-color: darkblue;
+}
+
