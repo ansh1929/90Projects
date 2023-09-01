@@ -3,7 +3,7 @@ let icon = document.querySelector("#icon");
 
 container.addEventListener("dblclick",function(){
     icon.style.transform = "scale(1)";
-    icon.style.opacity = 1;
+    icon.style.opacity = 0.8;
 
     setTimeout(function(){
         icon.style.transform = "scale(0)";
