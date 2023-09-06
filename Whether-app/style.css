@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@500&family=Poppins:wght@500&family=Roboto+Slab&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 120, 115);
+}
+
+.container{
+    width: 25%;
+    height: min-content;
+    background-color: white;
+    padding: 3vh;
+    border-radius: 10px;
+}
+
+.whether-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whether-head input{
+    outline: none;
+    border: none;
+    background-color: rgb(225, 234, 234);
+    padding: 2vh 3vh;
+    border-radius: 12px;
+    width: 83%;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+input::placeholder{
+    color: black;
+    font-weight: 100    ;
+}
+
+.whether-head button{
+    outline: none;
+    border: none;
+    background-color: rgb(225, 234, 234);
+    padding: 2.5vh 2.5vh;
+    border-radius: 50%;
+    transition: all ease 0.5s;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+}
+
+
+
+.whether-body .image{
+    padding: 2rem 0;
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.whether-body img{
+    width: 25vh;
+    margin-bottom: 0.5rem;
+}
+
+.image span{
+    font-weight: 900;
+    font-size: 3rem;
+    position: relative;
+}
+
+.image sup{
+    font-size: 15px;
+    position: absolute;
+}
+
+.image p{
+    font-weight: 600;
+}
+
+.whether-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whether-details i{
+    font-size: 5vh;
+}
+
+.humidity, .wind{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.text{
+    line-height: 1.2;
+}
+
+.text span{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.text p{
+    font-size: 12px;
+}
